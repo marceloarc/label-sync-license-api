@@ -11,8 +11,8 @@
       {
         "key": "ABCD1-EFGH2-IJKL3",
         "duration": {
-          "days": 30,
-          "months": 0,
+          "days": 0,
+          "months": 2,
           "years": 0
         }
       },
