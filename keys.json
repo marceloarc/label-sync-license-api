@@ -1,0 +1,28 @@
+{
+    "keys": [
+      {
+        "key": "30S6Z-T2AYX-PFYDM",
+        "duration": {
+          "days": 3,
+          "months": 0,
+          "years": 0
+        }
+      },
+      {
+        "key": "ABCD1-EFGH2-IJKL3",
+        "duration": {
+          "days": 30,
+          "months": 0,
+          "years": 0
+        }
+      },
+      {
+        "key": "XYZ99-TESTE-12345",
+        "duration": {
+          "days": 0,
+          "months": 3,
+          "years": 2
+        }
+      }
+    ]
+  }
