@@ -27,17 +27,9 @@ export default async function handler(req, res) {
       return res.status(404).json({ error: "Chave não encontrada" });
     }
 
-    // Calcular a data de expiração
-    const now = new Date();
-    const { days, months, years } = keyData.duration;
-    let expiresAt = now;
-    if (days) expiresAt = addDays(expiresAt, days);
-    if (months) expiresAt = addMonths(expiresAt, months);
-    if (years) expiresAt = addYears(expiresAt, years);
-
     return res.status(200).json({
       key: keyData.key,
-      expires_at: format(expiresAt, "yyyy-MM-dd HH:mm:ss"),
+      expires_at: keyData.expires_at,
     });
   } catch (error) {
     console.log(error)
